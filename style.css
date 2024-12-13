@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+.header__wrapper{
+    display: flex;
+    margin: 0px 120px 0px 120px;
+   
+    width: 1200px;
+
+margin-top: 25px;
+align-items: center;
+
+
+
+
+}
+.line{
+    width:1179px;
+    margin-left: 140px;
+    margin-top: 25px;
+}
+.header__menu{
+    display: flex;
+align-items: center;
+gap: 50px;
+
+
+}
+.header__link{
+    color: #3D3D3D;
+}
+.header__item{
+    font-family: Cera Pro;
+font-size: 16px;
+font-weight: 400;
+line-height: 20.11px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.header__item--active{
+    font-family: Cera Pro;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20.11px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.btn{
+    padding: 10px 30px 10px 50px;
+    background-color: #46A358;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+height: 35px;
+border-radius: 6px ;
+color: white;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 261px;
+    gap: 30px;
+    margin-right: 30px;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    top: calc(50% - 10px); 
+    left: 20px;
+    width: 20px;
+    height: 20px;
+   background-image: url("./Logout.png");
+   background-size: cover;
+}
+.btn:hover{
+    box-shadow: #00ff3399 0px 0px 10px 0px;
+}
+.logo{
+    display: flex;
+    margin-right: 229px;
+}
+.header__item:hover{
+    
+    text-decoration: underline;
+    color: #46A358;
+
+}
+.btn--special{
+   
+  margin-bottom: 85px;
+  background-color:#46A358;
+  border: none;
+  color: white;
+  cursor: pointer;
+  width: 140px;
+  height: 40px;
+  top: 415px;
+  left: 161px;
+  border-radius: 6px;
+  opacity: 0px;
+  
+}
+.Green{
+    color: #46A358;
+    font-family: 'Cera Pro';
+font-size: 70px;
+font-weight: 900;
+line-height: 70px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+h1{
+    margin: 7px 0px 5px 0px;
+    font-family: 'Cera Pro';
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 70px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 630px;
+height: 140px;
+top: 181px;
+left: 160px;
+
+
+}
+h3{
+    width: 205px;
+    height: 16px;
+    top: 158px;
+    left: 163px;
+    font-family: 'Cera Pro';
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #3D3D3D;        
+    
+}
+p{
+    width: 557px;
+    height: 45px;
+    top: 326px;
+    left: 163px;
+   
+    color: #727272;    
+}
+.main{
+    margin-top: 12px;
+    margin-left: 120px;
+    width: 1200px;
+height: 478px;
+top: 90px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
+
+}
+.welcoming{
+display: flex;
+align-items: center;
+}
+.img-box{
+    display: flex;
+    width: 600px;
+height: 478px;
+top: 42px;
+left: 813px;
+margin-bottom:20px;
+    
+}
+.img{
+    display: flex;
+   
+
+}
+.nigger{
+  
+    display: flex;
+    margin-top: 55px;
+margin-left: 520px;
+margin-right: 100px;
+}
+
+.left {
+    width: 310px;
+    height: 774px;
+    top: 586px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    #FBFBFB
+    
+}
+.father {
+display: ;
+}
+.item {
+list-style: none;
+display: flex;
+gap: 137px;
+
+}
+.link {
+ text-decoration: none; 
+ color: #3D3D3D; 
+ 
+
+}
+.h3{
+color: #3D3D3D;
+}
+.price{
+    color: #000000;
+    
+}
+.greenprice{
+    color: #46A358;
+}
+.btn--filter{
+   padding-left: 30px;
+    font-family:' Cera Pro';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+        
+    background-color: #46A358;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+height: 35px;
+border-radius: 6px ;
+color: white;
+}
+.sizer{
+    width: 34px;
+height: 16px;
+top: 1198px;
+left: 138px;
+gap: 0px;
+opacity: 0px;
+font-family: Cera Pro;
+font-size: 18px;
+font-weight: 700;
+line-height: 16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.super-sale{
+    width: 370px;
+height: 470px;
+top: 1360px;
+left: 91px;
+gap: 0px;
+opacity: 0px;
+border: 2px solid;
+
+border-image-source: linear-gradient(140.71deg, #46A358 -61.14%, rgba(70, 163, 88, 0) 122.5%);
+
+
+}
+.left{
+    width: 310px;
+    height: 774px;
+    top: 586px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
